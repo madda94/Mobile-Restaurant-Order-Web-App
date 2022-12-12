@@ -99,7 +99,7 @@ p {
     border-radius: 50%;
     margin: auto;
     padding: 10px;
-    width: 40px;
+    width: 50px;
     border: 1.5px solid #DEDEDE;
     color: #FFFFFF;
     background: #b5179e; 
@@ -180,7 +180,7 @@ button {
     bottom: 0;
     right: 0;
     background: #FFFFFF;
-    width: 40%;
+    width: 30%;
     margin: auto;
     display: none;
     flex-direction: column;
@@ -219,7 +219,7 @@ input {
     bottom: 0;
     right: 0;
     background: #daffef;
-    width: 40%;
+    width: 30%;
     margin: auto;
     display: none;
     flex-direction: column;
