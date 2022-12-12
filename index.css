@@ -8,6 +8,11 @@ body {
     position: relative;
     background-image: linear-gradient(to right, #ffcbf2, #c8e7ff)
 }
+#container {
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 30px #a100f2;
+}
 /* Header style */
 #header {
     /* background-image: url("sweets-background.png"); */
