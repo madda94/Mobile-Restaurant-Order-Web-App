@@ -38,7 +38,7 @@ h1 {
 p {
     margin-top: .6em;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 20px;
 }
 
 /* Product list style */
@@ -91,7 +91,7 @@ p {
 }
 .product-price {
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     font-family: Pacifico;
     color: #3c096c;
 }
@@ -164,7 +164,7 @@ p {
 /* #complete-order-btn  */
 button {
     padding: 10px;
-    font-size: 16px;
+    font-size: 24px;
     color: whitesmoke;
     background: #b5179e;
     border: none;
@@ -180,7 +180,7 @@ button {
     bottom: 0;
     right: 0;
     background: #FFFFFF;
-    width: 80%;
+    width: 40%;
     margin: auto;
     display: none;
     flex-direction: column;
@@ -205,6 +205,7 @@ input {
     margin: .5em auto;
     padding: .8em;
     width: 90%;
+    font-size: 22px;
 }
 #pay-btn {
     margin: 1em 0 .5em;
@@ -218,7 +219,7 @@ input {
     bottom: 0;
     right: 0;
     background: #daffef;
-    width: 60%;
+    width: 40%;
     margin: auto;
     display: none;
     flex-direction: column;
