@@ -6,13 +6,13 @@ html, body {
 }
 body {
     position: relative;
-    background-image: linear-gradient(#ffe0e9, #caf0f8)
+    background-image: linear-gradient(#ffe0e9, #caf0f8);
 }
 #container {
     max-width: 550px;
     margin: auto;
     box-shadow: 5px 5px 30px #a100f2;
-    background-image: linear-gradient(to right, #ffcbf2, #c8e7ff)
+    background-image: linear-gradient(to right, #ffcbf2, #c8e7ff);
 }
 /* Header style */
 #header {
