@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>My restaurant order page</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&family=La+Belle+Aurore&family=Pacifico&family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Madda's Sweets</h1>
+                <p>The best sweets in town</p>
+            </div>
+            <div id="main"></div>
+            <div id="order" class=""></div>
+        </div>
+        <div id="pay-card">
+            <h2 id="card-title">Enter card details</h2>
+            <form>
+                <input type="text" placeholder="Enter your name" input="name-input" required>
+                <input type="text" placeholder="Enter your card number" required>
+                <input type="text" placeholder="Enter CVV" required>
+                <button type="button" id="pay-btn">Pay</button>
+            </form>
+        </div>
+        <div id="final">
+            <button id="close-final-btn">X</button>
+            <div id="thanks">Thanks, Madda! Your order is on its way!</div>
+            <div id="rate">Please rate your order: 
+            <div id="stars">
+            
+            </div>
+        </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+    
+</html>

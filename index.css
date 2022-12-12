@@ -1,0 +1,261 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    
+}
+body {
+    position: relative;
+    background-image: linear-gradient(to right, #ffcbf2, #c8e7ff)
+}
+/* Header style */
+#header {
+    background-image: url("sweets-background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #a100f2;
+}
+h1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 24px;
+}
+p {
+    margin-top: .6em;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/* Product list style */
+#main {
+    /* display: table; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 1em 0 0;
+}
+.product-div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 1.5em;
+    border-bottom: 1.5px solid #c77dff;
+    color: #3c096c;
+}
+.product-image {
+    font-size: 65px;
+    margin: auto;
+    margin-right: 15px;
+    align-self: center;
+    width: 20%;
+}
+.product-info {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+    justify-content: center;
+    gap: 10px;
+}
+.product-name {
+    font-size: 28px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    display: flex;
+    color: #3c096c;
+}
+.product-ingredients {
+    margin: 0;
+    color: #bc00dd;
+    font-size: 18px;
+    opacity: .8;
+}
+.product-price {
+    margin: 0;
+    font-size: 20px;
+    font-family: Pacifico;
+    color: #3c096c;
+}
+.add-product-btn {
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    width: 40px;
+    border: 1.5px solid #DEDEDE;
+    color: #FFFFFF;
+    background: #b5179e; 
+}
+/* Style the order part */
+#order {
+    display: none;
+    flex-direction: column;
+    margin: 1em auto;
+    padding: 0 2em;
+}
+#order-title {
+    font-size: 28px;
+    text-align: center;
+}
+#products-ordered {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5em;
+}
+.product-added {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.remove {
+    font-size: 12px;
+    color: #bc00dd;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#total-price-div, #discount-div {
+    border-top: 2px solid #393333;
+    padding-top: 10px; 
+    margin: 10px 0 30px;
+    color: #3c096c;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+#total-title, #discount-title {
+    font-size: 28px;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+#total-price, #discount-amount {
+    margin: 0;
+    align-self: center;
+    font-family: Pacifico;
+    color: #3c096c;
+    font-size: 24px;
+}
+#discount-div {
+    border-top: 1.5px solid #3c096c;
+}
+#discount-div, #discount-amount, #discount-title {
+    color: #ff4d6d;
+    font-size: 20px;
+    margin: 0;
+}
+/* #complete-order-btn  */
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    background: #b5179e;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+/* Style the pay card */
+#pay-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #FFFFFF;
+    width: 80%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    height: 55%;
+    border: 1px solid;
+    align-items: center;
+    padding: 20px 15px;
+}
+#card-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    padding: 0;
+    width: 100%;
+}
+input {
+    margin: .5em auto;
+    padding: .8em;
+    width: 90%;
+}
+#pay-btn {
+    margin: 1em 0 .5em;
+    padding: .8em;
+}
+
+#final {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #daffef;
+    width: 60%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    height: 40%;
+    border: 2px solid;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: center;
+    gap: 30px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    color: #a100f2;
+}
+#rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+i{
+    color: #cfcfcf;
+    font-size: 24px;
+    cursor: pointer;   
+}
+i:hover {
+    color: #f7c56a;
+}
+.rating {
+    color: #ffa600;
+}
+#rated {
+    color: #b5179e;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+#close-final-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    background: #daffef;
+    margin: auto;
+    width: 40px;
+    cursor: pointer;
+}
