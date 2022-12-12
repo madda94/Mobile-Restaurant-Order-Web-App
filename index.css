@@ -10,7 +10,7 @@ body {
 }
 /* Header style */
 #header {
-    background-image: url("sweets-background.png");
+    /* background-image: url("sweets-background.png"); */
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2em;
@@ -21,6 +21,8 @@ body {
     flex-direction: column;
     align-items: flex-end;
     color: #a100f2;
+    border-bottom: 5px solid;
+    box-shadow: 5px 5px 30px #a100f2;
 }
 h1 {
     margin: 0;
