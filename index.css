@@ -16,7 +16,7 @@ body {
 }
 /* Header style */
 #header {
-    /* background-image: url("sweets-background.png"); */
+    background-image: url("sweets-background.png");
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2em;
@@ -214,7 +214,7 @@ input {
     margin: 1em 0 .5em;
     padding: .8em;
 }
-
+/* final rate card */
 #final {
     position: fixed;
     top: 0;
