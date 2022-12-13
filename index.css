@@ -18,7 +18,7 @@ body {
 #header {
     background-image: url("sweets-background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 2em;
     font-weight: 400;
     font-style: normal;
